@@ -88,6 +88,8 @@
       <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
       <path value="$PROJECT_DIR$/vendor/api-platform/api-pack" />
       <path value="$PROJECT_DIR$/vendor/api-platform/core" />
+      <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XJKgOAPfcWyxbBw70i7eZcK9S7" />
@@ -103,6 +105,8 @@
       <command value="s doctrine:database:create" />
       <command value="s doctrine:schema:create" />
       <command value="open C:\Users\Khouloud\Documents\GitHub\EcoSystem_PI_DEV_Symfony" />
+      <command value="s make:entity" />
+      <command value="c require symfony/maker-bundle --dev" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -128,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580758867301</updated>
       <workItem from="1580758868667" duration="5844000" />
-      <workItem from="1580768513763" duration="638000" />
+      <workItem from="1580768513763" duration="4057000" />
     </task>
     <servers />
   </component>

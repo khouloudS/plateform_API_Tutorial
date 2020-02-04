@@ -102,11 +102,11 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="doctrine:database:create" />
-      <command value="s doctrine:database:create" />
-      <command value="s doctrine:schema:create" />
       <command value="open C:\Users\Khouloud\Documents\GitHub\EcoSystem_PI_DEV_Symfony" />
       <command value="s make:entity" />
       <command value="c require symfony/maker-bundle --dev" />
+      <command value="s doctrine:database:create" />
+      <command value="s doctrine:schema:create" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -132,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580758867301</updated>
       <workItem from="1580758868667" duration="5844000" />
-      <workItem from="1580768513763" duration="4057000" />
+      <workItem from="1580768513763" duration="6360000" />
     </task>
     <servers />
   </component>

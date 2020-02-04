@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use ApiPlatform\Core\Annotation\ApiResource;
+use DateTime;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -13,7 +14,7 @@ class Client
 {
     /**
      * @ORM\Id()
-     * @ORM\GeneratedValue()
+     * @ORM\GeneratedValue(strategy="AUTO")
      * @ORM\Column(type="integer")
      */
     private $id;
@@ -24,7 +25,7 @@ class Client
     private $name;
 
     /**
-     * @ORM\Column(type="datetime")
+     * @ORM\Column(type="datetime", options={"default": "CURRENT_TIMESTAMP"})
      */
     private $creationDate;
 
@@ -55,5 +56,9 @@ class Client
         $this->creationDate = $creationDate;
 
         return $this;
+    }
+    public function __construct()
+    {
+        $this->creationDate = new DateTime();
     }
 }

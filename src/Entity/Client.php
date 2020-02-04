@@ -57,8 +57,4 @@ class Client
 
         return $this;
     }
-    public function __construct()
-    {
-        $this->creationDate = new DateTime();
-    }
 }

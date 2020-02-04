@@ -90,6 +90,13 @@
       <path value="$PROJECT_DIR$/vendor/api-platform/core" />
       <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XJKgOAPfcWyxbBw70i7eZcK9S7" />
@@ -105,8 +112,16 @@
       <command value="open C:\Users\Khouloud\Documents\GitHub\EcoSystem_PI_DEV_Symfony" />
       <command value="s make:entity" />
       <command value="c require symfony/maker-bundle --dev" />
-      <command value="s doctrine:database:create" />
       <command value="s doctrine:schema:create" />
+      <command value="s doctrine:schema:update --force" />
+      <command value="s help" />
+      <command value="s help --help" />
+      <command value="s make:migrations" />
+      <command value="s" />
+      <command value="make:migration" />
+      <command value="c require migrations" />
+      <command value="s doctrine:database:create" />
+      <command value="s make:migration" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -132,7 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580758867301</updated>
       <workItem from="1580758868667" duration="5844000" />
-      <workItem from="1580768513763" duration="6360000" />
+      <workItem from="1580768513763" duration="12633000" />
     </task>
     <servers />
   </component>

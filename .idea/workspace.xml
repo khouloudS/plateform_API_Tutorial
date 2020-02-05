@@ -120,9 +120,10 @@
       <command value="c require migrations" />
       <command value="s doctrine:database:create" />
       <command value="s make:migration" />
-      <command value="s doctrine:schema:create" />
       <command value="c require doctrine/annotations" />
+      <command value="s debug:router" />
       <command value="s doctrine:schema:update --force" />
+      <command value="s doctrine:schema:create" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -151,7 +152,7 @@
       <workItem from="1580768513763" duration="14245000" />
       <workItem from="1580848189705" duration="2272000" />
       <workItem from="1580851857046" duration="114000" />
-      <workItem from="1580852001407" duration="2687000" />
+      <workItem from="1580852001407" duration="6822000" />
     </task>
     <servers />
   </component>

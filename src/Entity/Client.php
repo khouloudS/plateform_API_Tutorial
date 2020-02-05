@@ -12,7 +12,11 @@ use Symfony\Component\Serializer\Annotation\Groups;
  * @ApiResource(attributes={
  *     "normalization_context"={"groups"={"read"}},
  *     "denormalization_context"={"groups"={"write"}}
- * })
+ *     },
+ *     itemOperations={
+ *         "get"={"method"="GET"},
+ *         "delete"={"method"="DELETE"},
+ *     },)
  * @ORM\Entity(repositoryClass="App\Repository\ClientRepository")
  */
 class Client
@@ -31,7 +35,7 @@ class Client
     private $name;
 
     /**
-     * @ORM\Column(type="datetime", options={"default": "CURRENT_TIMESTAMP"}, nullable=true)
+     * @ORM\Column(type="datetime", options={"default": "CURRENT_TIMESTAMP"}, nullable=false)
      * @Groups("read")
      */
     private $creationDate;
@@ -63,5 +67,8 @@ class Client
         $this->creationDate = $creationDate;
 
         return $this;
+    }
+    public function __construct(){
+        $this->creationDate = new DateTime();
     }
 }

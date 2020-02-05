@@ -112,8 +112,6 @@
       <command value="open C:\Users\Khouloud\Documents\GitHub\EcoSystem_PI_DEV_Symfony" />
       <command value="s make:entity" />
       <command value="c require symfony/maker-bundle --dev" />
-      <command value="s doctrine:schema:create" />
-      <command value="s doctrine:schema:update --force" />
       <command value="s help" />
       <command value="s help --help" />
       <command value="s make:migrations" />
@@ -122,6 +120,9 @@
       <command value="c require migrations" />
       <command value="s doctrine:database:create" />
       <command value="s make:migration" />
+      <command value="s doctrine:schema:create" />
+      <command value="c require doctrine/annotations" />
+      <command value="s doctrine:schema:update --force" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -147,7 +148,10 @@
       <option name="presentableId" value="Default" />
       <updated>1580758867301</updated>
       <workItem from="1580758868667" duration="5844000" />
-      <workItem from="1580768513763" duration="12633000" />
+      <workItem from="1580768513763" duration="14245000" />
+      <workItem from="1580848189705" duration="2272000" />
+      <workItem from="1580851857046" duration="114000" />
+      <workItem from="1580852001407" duration="2687000" />
     </task>
     <servers />
   </component>

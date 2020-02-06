@@ -16,7 +16,11 @@ use Symfony\Component\Serializer\Annotation\Groups;
  *     itemOperations={
  *         "get"={"method"="GET"},
  *         "delete"={"method"="DELETE"},
- *     },)
+ *     },
+ *      collectionOperations={
+ *         "post"={"method"="POST"},
+ *         "get"={"method"="GET"}
+ *     })
  * @ORM\Entity(repositoryClass="App\Repository\ClientRepository")
  */
 class Client

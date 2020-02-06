@@ -27,13 +27,11 @@ class Client
      * @ORM\Column(type="integer")
      */
     private $id;
-
     /**
      * @ORM\Column(type="string", length=255)
      * @Groups({"read", "write"})
      */
     private $name;
-
     /**
      * @ORM\Column(type="datetime", options={"default": "CURRENT_TIMESTAMP"}, nullable=false)
      * @Groups("read")
@@ -68,7 +66,7 @@ class Client
 
         return $this;
     }
-    public function __construct(){
+        public function __construct(){
         $this->creationDate = new DateTime();
     }
 }

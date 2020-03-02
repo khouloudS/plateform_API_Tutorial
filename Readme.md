@@ -1,6 +1,5 @@
 # REST API
 
-This project has been performed within an interwiew test for the Teachr startup as a candidate for a summer internship position.
 
 ## Audiance
 

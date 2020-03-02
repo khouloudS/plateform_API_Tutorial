@@ -1,9 +1,8 @@
 # REST API
 
-
 ## Audiance
 
-The target audiance of this project is the the Teachr recruitment team
+The target audiance of this project is the the Teachr team
 
 ## High level overview
 
